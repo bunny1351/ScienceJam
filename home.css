@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: url("chem.png");
+  height: 100vh;
+  background-position: center;
+  background-size: contain;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  width: 100vw;
+  height: 7vh;
+  background: linear-gradient(to right, #460096, #0077ff);
+  position: fixed;
+  top: 0;
+  left: 0;
+  border-bottom: 2px solid #000;
+  z-index: 10;
+}
+nav #logo {
+  color: #fff;
+  font-weight: 700;
+  font-size: 4vh;
+  margin: 9px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+nav ul li {
+  display: inline-block;
+  margin: 14px;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  transition: 0.6s ease;
+  border-radius: 10px;
+}
+nav ul li a:hover {
+  color: #000;
+  background-color: #fff;
+}
+
+.catch {
+  position: relative;
+  top: 72%;
+  text-align: center;
+  color: #06055a;
+  font-size: x-large;
+}
+
+/*# sourceMappingURL=home.css.map */
