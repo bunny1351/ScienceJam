@@ -16,7 +16,7 @@ nav{
     display: flex;
     justify-content: space-between;
     width: 100vw;
-    height: 7vh;
+    height: 46px;
     background: $navGradient;
     position: fixed;
     top: 0;
@@ -34,6 +34,7 @@ nav{
     }
 
     ul{
+        margin-right: 20px;
 
         li{
             display: inline-block;
@@ -56,9 +57,45 @@ nav{
 }
 
 .catch{
-    position: relative;
-    top: 72%;
+    position: absolute;
+    top: 70%;
+    left: 37%;
     text-align: center;
     color: $catchColor;
     font-size: x-large;
 }
+
+.button{
+    position: absolute;
+    top: 84%;
+    left: 38%;
+    text-align: center;
+    margin-top: 10px;
+
+    #btn{
+        padding: 10px;
+        margin: 10px;
+        background: $navGradient;
+        color: $pcolorW;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        box-shadow: 0 2px 4px 0 rgba(0, 37, 199, 0.658);
+        transition: 0.3s; 
+        cursor: pointer; 
+        font-size: medium;   
+    }
+
+    #btn:hover{
+        box-shadow: 0 4px 8px 0 rgba(0, 37, 199, 0.658);
+        padding: 11px;
+    }
+}
+
+#bright{
+    position: absolute;
+    right: 5%;
+    top: 10%;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
